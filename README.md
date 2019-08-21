@@ -2,6 +2,8 @@
 
  Copyright (C) 2018 DevKingsTeam Open-source
 
+ Copyright (C) 2019 Griffin
+
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
  You may obtain a copy of the License at
@@ -20,7 +22,7 @@ Add to `.repo/local_manifests/j5y17lte.xml`:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="ananjaser1211/android_device_samsung_jxy17lte" path="device/samsung/j5y17lte" remote="github" revision="j5y17lte" />
+  <project name="j5y17lte/android_device_samsung_jxy17lte" path="device/samsung/j5y17lte" remote="github" revision="j5y17lte" />
 </manifest>
 ```
 
@@ -34,4 +36,4 @@ lunch omni_j5y17lte-eng
 make -j64 recoveryimage
 ```
 
-Kernel sources are available at: https://github.com/ananjaser1211/Helios_7870
+Kernel sources are available at: https://github.com/j5y17lte/kernel-exynos7870
