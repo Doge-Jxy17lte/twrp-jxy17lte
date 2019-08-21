@@ -22,7 +22,7 @@ Add to `.repo/local_manifests/j5y17lte.xml`:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="j5y17lte/android_device_samsung_jxy17lte" path="device/samsung/j5y17lte" remote="github" revision="j5y17lte" />
+  <project name="j5y17lte/twrp-jxy17lte" path="device/samsung/j5y17lte" remote="github" revision="j5y17lte" />
 </manifest>
 ```
 
